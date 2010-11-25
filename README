@@ -1,0 +1,4 @@
+Lightweight implementation of a Coroutine ( http://en.wikipedia.org/wiki/Coroutine ).
+
+c = Coroutine.new { |ctrl| ctrl.yield something_useful }
+yielded_value = c.resume
